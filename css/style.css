@@ -1,0 +1,109 @@
+.d_but
+{
+    position: relative;
+    width: auto;
+    height: auto;
+}
+.tech
+{
+    font-family: cursive;
+    color:rgb(238, 76, 12);
+    font-weight: bold;
+    font-size: 20px;
+    margin:10px;
+}
+#end
+{
+    color:rgb(238, 184, 8);
+}
+#text
+{
+    color:rgb(238, 184, 8);
+}
+.but{
+    position:absolute;
+    left: 45%;
+    width: 100px;
+    height: 50px;
+    margin:0;
+    letter-spacing: 1px;
+    font-weight: bold;
+    background-color: transparent;
+    border-radius: 20px;
+    border-color: rgb(243, 201, 14);
+    color:rgb(243, 201, 14);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+.but:hover
+{
+    background-color: rgb(243, 201, 14);
+    color:white;
+    box-shadow: 0px 8px 15px rgba(243, 201, 14, 0.452);
+    cursor: pointer;
+
+}
+.box
+{
+    
+    width: 95%;
+    height: auto;
+    
+}
+.text_h2
+{
+    text-align: center;
+    text-decoration: underline;
+    font-family: cursive;
+    color:rgb(250, 62, 15);
+}
+.c_flex
+{
+    display: inline;
+    margin-left: 10px;
+    width: 33%;
+    position: relative;
+
+    
+
+
+}
+
+.c_flex:hover .slid
+{
+    animation-name:example;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes example {
+    0%   {height: 0;}
+    
+    100% {height:calc(100% - 4px);}
+  }
+.slid
+{
+    background-color: rgba(209, 106, 10, 0.651);
+    position:absolute;
+    bottom:4px;
+    height: 0;
+    width: 100%;
+    overflow:hidden;
+    z-index: 0;
+}
+img
+{
+    z-index: -1;
+    object-fit: cover;
+    height: 500px;
+    max-width: 100%;
+}
+.text {
+    color: rgb(230, 173, 16);
+    font-size: 45px;
+    font-weight: bold;
+    font-family: cursive;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }

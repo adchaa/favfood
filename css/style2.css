@@ -1,0 +1,30 @@
+#boxx
+{
+    width: 25%;
+}
+.box
+{
+    border-radius: 10px;
+    border-color: rgb(221, 93, 7);
+    border-style:solid;
+    padding: 15px;
+    background-color: rgb(228, 183, 101);
+    margin-bottom: 10px;
+    border-width: 4px;
+}
+.title
+{
+    color:rgb(219, 46, 3);
+    font-family: cursive;
+    font-weight: bold;
+}
+.list
+{
+    list-style-image: url('../image/163827680341619317.png');
+}
+.list li
+{
+    font-family: cursive;
+    color:rgb(0, 0, 0);
+    transform: translateY(5px);
+}
