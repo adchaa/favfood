@@ -1,3 +1,17 @@
+
+.containe
+{
+    display: flex;
+}
+img
+{
+    margin:15px;
+    width: 400px;
+    height: 400px;
+    display: inline;
+    object-fit: cover;
+    
+}
 #boxx
 {
     width: 25%;
@@ -26,5 +40,5 @@
 {
     font-family: cursive;
     color:rgb(0, 0, 0);
-    transform: translateY(5px);
+
 }

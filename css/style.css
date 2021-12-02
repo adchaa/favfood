@@ -1,3 +1,36 @@
+.img_container
+{
+    --cont_display:flex;
+}
+.c_flex
+{
+    --width_img:33%;
+}
+.tech
+{
+    --pos_text:absolute;
+}
+
+@media only screen and (max-width: 750px) 
+{
+    .img_container
+    {
+        --cont_display:block;
+    }
+    .c_flex
+    {
+        --width_img:100%;
+    }
+    .tech
+    {
+    --pos_text:static;
+    }
+}
+
+.img_container
+{
+    display: var(--cont_display);
+}
 .d_but
 {
     position: relative;
@@ -11,6 +44,7 @@
     font-weight: bold;
     font-size: 20px;
     margin:10px;
+    position:var(--pos_text);
 }
 #end
 {
@@ -58,9 +92,9 @@
 }
 .c_flex
 {
-    display: inline;
-    margin-left: 10px;
-    width: 33%;
+    
+    margin: 10px;
+    width: var(--width_img);
     position: relative;
 
     
