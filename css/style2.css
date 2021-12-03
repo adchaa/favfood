@@ -1,4 +1,14 @@
-
+#boxx
+{
+    --wid:25%
+}
+@media only screen and (max-width: 750px) 
+{
+    #boxx
+    {
+    --wid:90%
+    }
+}
 .containe
 {
     display: flex;
@@ -14,10 +24,11 @@ img
 }
 #boxx
 {
-    width: 25%;
+    width: var(--wid);
 }
 .box
 {
+    width: 90%;
     border-radius: 10px;
     border-color: rgb(221, 93, 7);
     border-style:solid;
@@ -34,11 +45,14 @@ img
 }
 .list
 {
-    list-style-image: url('../image/163827680341619317.png');
+    list-style-image: url('../image/check.png');
 }
+
 .list li
 {
+    margin:10px;
     font-family: cursive;
     color:rgb(0, 0, 0);
+    margin-bottom: 20px;
 
 }
