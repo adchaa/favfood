@@ -74,7 +74,10 @@
     color:white;
     box-shadow: 0px 8px 15px rgba(243, 201, 14, 0.452);
     cursor: pointer;
-
+}
+.but:focus
+{
+    cursor:text;
 }
 .box
 {

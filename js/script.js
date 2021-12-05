@@ -26,7 +26,7 @@ function text_clear()
             j++; 
         }
 
-        setTimeout(textch,3000);
+        setTimeout(textch,2000);
     }
 }
 function textch()

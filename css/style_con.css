@@ -1,0 +1,64 @@
+
+body
+{
+    background-color: rgb(192, 165, 10);
+}
+.container 
+{
+    display: flex;
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    margin: -25px 0 0 -25px;
+    
+}
+a::before
+{
+     
+    content: '';
+    position: absolute;
+    left:-20px;
+    top:-7px;
+    width: 6.5rem;
+    height: 6.5rem;
+    background: #000;
+    transform: scale(0);
+    border-radius: 50%;
+    z-index: -1;
+    transition: 0.3s ease;
+}
+a:hover
+{
+    color: white;
+}
+a:hover::before
+{
+    transform: scale(1);
+}
+.face:hover::before
+{
+    background: blue;
+}
+.link:hover::before
+{
+    background: rgb(6, 87, 194);
+}
+.git:hover::before
+{
+    background: black;
+}
+a
+{
+    display: inline;
+    position: relative;
+    margin-right: 80px;
+    transition: ease;
+    text-decoration: none;
+    color:black;
+    font-size: 5rem;
+}
+.git::before
+{
+    left:-18px;
+}
+
